@@ -10,7 +10,7 @@ public class Sample1Test {
 	public void testCalclate() {
 		Sample1 s1 = new Sample1();
 		int ret = s1.calclate(10, 5);
-		assertThat(ret).isEqualTo(5);
+		assertThat(ret).isEqualTo(2);
 	}
 
 }
